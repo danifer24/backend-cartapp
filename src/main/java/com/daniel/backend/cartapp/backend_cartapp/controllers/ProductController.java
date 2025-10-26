@@ -18,10 +18,6 @@ public class ProductController {
     private ProductService service;
 
     @GetMapping("/products")
-    public String getMethodName(@RequestParam String param) {
-        return new String();
-    }
-    
     public List<Product> list(){
         return service.findAll();
     }
