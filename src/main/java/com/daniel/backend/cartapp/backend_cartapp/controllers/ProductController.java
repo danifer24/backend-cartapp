@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.daniel.backend.cartapp.backend_cartapp.services.ProductService;
 import com.daniel.backend.cartapp.backend_cartapp.models.entities.Product;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController
